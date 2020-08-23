@@ -3,7 +3,6 @@ def isPrime(num):
     if num < 2:
         return "Invalid value, number must be greater than 2"
     for x in range(2,num):
-        print(num,"%",x,"=",num%x)
         if num%x == 0:
             return False
         else:
